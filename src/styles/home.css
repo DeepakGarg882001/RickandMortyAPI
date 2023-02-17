@@ -1,0 +1,343 @@
+.home-canvas{
+    width: 100vw;
+    height: fit-content;
+    min-height: 90vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+    background-color: aliceblue;
+}
+.home-category-sec{
+    display: flex;
+    width: 100%;
+    padding: 15px;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.links{
+    text-decoration: none;
+}
+.search-bar-sec{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 35px 0px;
+    background-color: lightseagreen;
+    margin-bottom: 15px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 4;
+}
+.search-bar{
+    outline: none;
+    background-color: white;
+    border-radius: 8px;
+    height: 35px;
+    width: 500px;
+    padding:0px 10px ;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: gray;
+}
+.home-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 20px;
+
+}
+.filter-icon{
+    width: 100%;
+    justify-content:left;
+    flex-direction: row;
+    padding: 4px 15px;
+    display: none;
+}
+.show-filter{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.filter-box-heading{
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #636363;
+    padding-left: 10%;
+}
+.filter-compo{
+   width: 95%;
+   background-color: white;
+   max-height: 100%;
+   height: 100%;
+}
+
+.Under-filter-compo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.flter-col{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.fiter-title{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+    width: 100%;
+}
+.filter-data-btn{
+    padding: 6px 15px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 4px;
+    border-color: #0c57f9;
+}
+.filter-data-box{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    gap:10px;
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+    overflow: auto;
+    max-height: 35.5vh;
+}
+.show-cads{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: center;
+    gap: 20px;
+    width:max-content;
+    height: fit-content;
+    max-height: 90vh;
+    overflow: auto;
+
+}
+.card-box{
+    min-width: 200px;
+    max-width: 300px;
+    width: auto;
+    height:fit-content;
+    box-shadow: 0px 0px 5px 0px #7b7474;
+    margin: 10px auto;
+    padding-bottom: 10px;
+    background-color: white;
+    flex-shrink: 1;
+
+
+}
+.under-card-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card-img-sec{
+    width: fit-content;
+    max-width: 100%;
+    height: fit-content;
+    max-height: 100%;
+}
+.card-img{
+    width: 100%;
+    height: 100%;
+}
+.card-name{
+    width: 100%;
+    text-align: center;
+    margin: 7px 0px;
+    color: blue;
+}
+.detail-sec{
+    width: 100%;
+    text-align: left;
+    padding: 0px 10px;
+}
+.details-text{
+    font-size: 0.9rem;
+    color: #1b1818d4;
+    font-weight: 500;
+}
+.details-text-title{
+    font-weight: 700;
+    color: #00000073;
+}
+.card-bottom{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 10px;
+    align-items: center;
+}
+.card-status{
+    border-radius: 2.6px;
+    width: fit-content;
+    height: fit-content;
+    padding: 4px 8px;
+    font-size: 0.8rem;
+    color: white;
+    font-weight: bold;
+}
+.pagination-sec{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 0px;
+}
+.pagination-btn{
+    padding:5px 15px;
+    color: #0c57f9;
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: white;
+    border: 1px solid #0c57f9;
+
+}
+.pagination-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #636363;
+    font-weight: 600;
+}
+.pagination-btn:hover {
+    background-color: #0c57f9;
+    color: white;
+}
+
+
+.table-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.table-head{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.table-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.table-head-col{
+    min-width: 200px;
+    width: fit-content;
+    padding: 5px 15px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+.table-row-col{
+    min-width: 200px;
+    width: fit-content;
+    padding: 5px 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: gray;
+    text-align: center;
+    cursor: pointer;
+}
+@media  only screen and (max-width:1000px) {
+.filter-icon{
+    display: flex;
+}
+.show-filter{
+    display: none;
+    z-index: 1;
+    position: absolute;
+    min-width: 300px;
+    max-width: 500px;
+    width: fit-content;
+    background-color: white;
+    max-height: 90vh;
+    height: 90vh;
+}
+
+}
+
+
+@media  only screen and (max-width:720px) {
+    .card-box{
+        max-width: 250px;
+    }
+    .search-bar{
+        width: 410px;
+    }
+    .table-box{
+        overflow: auto;
+        white-space: nowrap;
+        display: block;
+    }
+    .table-head{
+        display: grid;
+        width: 660px;
+    }
+    
+    
+}
+
+@media  only screen and (max-width:600px) {
+    .card-box{
+        max-width: 450px;
+    }
+    .show-filter{
+        width: inherit;
+    }
+    
+}
+
+@media  only screen and (max-width:500px) {
+    .card-box{
+        max-width: 450px;
+    }
+    .show-cads{
+        width: 100%;
+        gap: 10px;
+    }
+    .search-bar{
+        width: 270px;
+    }
+    
+    
+}
